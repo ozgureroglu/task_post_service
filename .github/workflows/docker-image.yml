@@ -23,5 +23,5 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ozgureroglu/jodel_post_service:$(date +%s)
     - name: Docker Push
-      run: docker push ozgureroglu/jodel_post_service
+      run: docker push ozgureroglu/jodel_post_service:$(date +%s)
 
