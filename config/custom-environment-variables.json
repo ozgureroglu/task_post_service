@@ -1,0 +1,9 @@
+{ 
+  "dbServer": "MONGODB_SERVER",
+  "dbPort": "MONGODB_PORT",
+  "dbUsername": "MONGODB_USERNAME",
+  "dbPass": "MONGODB_PASSWORD" ,
+  "dbName": "MONGODB_DATABASE_NAME" ,
+  "redisServer": "REDIS_SERVER" ,
+  "redisPort": "REDIS_PORT"
+}
